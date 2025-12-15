@@ -1,0 +1,54 @@
+.inner-head {
+    color: white;
+    background-image: linear-gradient(90deg, var(--orange), var(--red));
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.collapse-title {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.inner-body {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.section-two .card-header {
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+}
+
+.section-two .card {
+    border: 0px;
+    margin-bottom: 5px;
+}
+
+.section-two .btn {
+    color: orange;
+    font-size: 500;
+    border: 1px solid transparent ;
+    text-decoration: none;
+}
+
+.section-two .btn:focus {
+    box-shadow: none;
+}
+
+.section-two .collapsed {
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 500;
+}
+
+.section-two .btn:hover {
+    text-decoration: none;
+}
