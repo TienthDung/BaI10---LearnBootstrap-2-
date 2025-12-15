@@ -80,3 +80,64 @@
     border: 0px;
     border-radius: 15px 15px 10px 10px;
 }
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.modal-header .title {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.modal-body {
+    padding: 0px;
+    padding-bottom: 30px;
+}
+
+.modal-body .col-12 input {
+    padding: 25px;
+}
+
+.modal-body .col-12:nth-child(1) {
+    padding-top: 15px;
+}
+
+.modal-body button {
+    background-image: linear-gradient(90deg, var(--orange), var(--red));
+    border-radius: 27px;
+    padding: 10px 20px;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.modal-content {
+    border-radius: 15px;
+    position: relative;
+    top: 500px;
+}
+
+.modal-content .close {
+    position: absolute;
+    background: black;
+    opacity: 1;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+    
+}
